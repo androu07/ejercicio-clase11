@@ -192,6 +192,7 @@
                 }
             } else {
                 document.getElementById("invalidNombre").style.display="none";
+                document.getElementById("validNombre").style.display="none";
                 document.getElementById("errorNombre").innerHTML = "<div>Campo faltante</div>";
             }
 
@@ -208,6 +209,7 @@
                 }
             } else {
                 document.getElementById("invalidApellido").style.display="none";
+                document.getElementById("validApellido").style.display="none";
                 document.getElementById("errorApellido").innerHTML = "<div>Campo faltante</div>";
             }
 
@@ -224,6 +226,7 @@
                 }
             } else {
                 document.getElementById("errorEmail").innerHTML = "<div>Campo faltante</div>";
+                document.getElementById("validEmail").style.display="none";
                 document.getElementById("invalidEmail").style.display="none";
             }
 
@@ -241,6 +244,7 @@
             } else {
                 document.getElementById("errorConfirmacion").innerHTML = "<div>Campo faltante</div>";
                 document.getElementById("invalidEmailConf").style.display="none";
+                document.getElementById("validEmailConf").style.display="none";
             }
 
             if (password != "") {
@@ -257,6 +261,7 @@
             } else {
                 document.getElementById("errorPassword").innerHTML = "<div>Campo faltante</div>";
                 document.getElementById("invalidPassword").style.display="none";
+                document.getElementById("validPassword").style.display = "none";
             }
 
             if (fecha != "") {
